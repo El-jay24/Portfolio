@@ -59,7 +59,6 @@ body.dark-mode {
     background-color: #121212;
     color: #fff;
 }
-
 header.dark-mode, footer.dark-mode {
     background-color: #1e1e1e;
 }
@@ -136,7 +135,6 @@ nav ul li a:hover {
 #skills {
     padding: 50px;
     text-align: center;
-    background-color: #ffffff;
 }
 
 /* Skills Container */
