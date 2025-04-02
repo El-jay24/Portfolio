@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h2>Loading...</h2>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <img src="C:\Users\Eljay\mypicture\EljayBana.jpg" class="profile-img">
+        <h2>Hi, I'm El-jay J. Baña Aspiring Front-End Developer</h2>
+        <p>Passionate about crafting visually appealing and user-friendly web experiences, I specialize in turning ideas into interactive and responsive websites. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React, I am dedicated to building seamless digital experiences that blend creativity with functionality.
+            I enjoy solving problems, optimizing user interfaces, and continuously learning new technologies to stay ahead in the ever-evolving web development landscape. Whether it's designing intuitive layouts or enhancing performance, I thrive on bringing concepts to life through clean and efficient code.</p>
+    </section>
+    
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <a href="https://github.com/your-project" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+            <a href="https://github.com/your-project" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 3</h3>
+            <p>Description of Project 3</p>
+            <a href="https://github.com/your-project" target="_blank">View Project</a>
+        </div>
+    </section>
+    
+    <section id="skills" class="fade-in"> <!-- FIXED: Added fade-in class -->
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <img src="C:\Users\Eljay\mypicture\HTML-logo.png" alt="HTML Logo" class="skill-logo">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-item">
+                <img src="C:\Users\Eljay\mypicture\CSS-logo.png" alt="CSS Logo" class="skill-logo">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-item">
+                <img src="C:\Users\Eljay\mypicture\JS-logo.png" alt="JavaScript Logo" class="skill-logo">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-item">
+                <img src="images/react-logo.png" alt="React Logo" class="skill-logo">
+                <h3>React</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <a href="https://mail.google.com/mail/?view=cm&to=eljaybana@gmail.com" target="_blank">Eljaybana@gmail.com</a>
+        <br>
+        <a>0995-494-5503</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me:</p>
+        <ul>
+            <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/your-profile" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
