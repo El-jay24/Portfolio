@@ -71,6 +71,72 @@ nav ul li a.dark-mode:hover {
     color: #7f8892;
 }
 
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Burger Menu (Hidden on Larger Screens) */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    background-color: white;
+    height: 4px;
+    width: 30px;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+    }
+}
+
+
 /* Loading Screen */
 #loading-screen {
     position: fixed;
